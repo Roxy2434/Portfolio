@@ -82,7 +82,8 @@ svg { width: 18px; height: 18px; flex-shrink: 0; }
 .technology li { font-size: 11px; line-height: 1.5; color: var(--muted); padding: 3px 7px; border: 1px solid var(--line); border-radius: 4px; }
 .project-featured { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); align-items: start; gap: 22px 30px; background: #eaf2ed; border-color: #d5e3da; padding: 40px; }
 .project-featured h3 { font-size: 44px; line-height: 1.12; letter-spacing: -.035em; margin-bottom: 15px; }
-.project-featured .project-subtitle { font-size: 19px; color: var(--ink); font-weight: 600; max-width: 25ch; }
+.project-featured .project-subtitle { font-size: 19px; color: var(--ink); font-weight: 600; }
+.keep-together { white-space: nowrap; }
 .project-featured .project-kind { background: #ffffff; color: var(--accent); margin-top: 23px; }
 .project-featured .project-body { margin: 0; }
 .project-featured .project-body > p:first-child { font-size: 15px; }
@@ -206,7 +207,7 @@ svg { width: 18px; height: 18px; flex-shrink: 0; }
         <article class="project project-featured" aria-labelledby="courses-title">
           <div class="project-heading">
             <h3 id="courses-title">Courses Companion</h3>
-            <p class="project-subtitle">Lịch học tập và nhắc hạn bài tập UTH</p>
+            <p class="project-subtitle">Lịch học tập và nhắc hạn <span class="keep-together">bài tập UTH</span></p>
             <p class="project-kind">Ứng dụng Windows đang phát triển</p>
           </div>
           <div class="project-body">
